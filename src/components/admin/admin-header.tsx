@@ -1,3 +1,4 @@
+import { AdminRoutes } from "@/routes/admin-routes";
 import React, { FC } from "react";
 
 type Props = {
@@ -6,6 +7,7 @@ type Props = {
 
 export const AdminHeader: FC<Props> = ({ name }) => (
   <div>
+    <AdminRoutes />
     <h1>Admin Header</h1>
   </div>
 );

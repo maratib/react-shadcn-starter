@@ -1,11 +1,9 @@
 import HomePage from "@/pages/home";
+import { Route, Link } from "react-router-dom";
+import AboutPage from "./pages/about";
 
 function App() {
-  return (
-    <>
-      <HomePage />
-    </>
-  );
+  return <></>;
 }
 
 export default App;
