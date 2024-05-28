@@ -15,7 +15,7 @@ export const AdminHeader: FC<Props> = ({ name }) => (
       <div className="hidden lg:block">
         <Link to="/admin" className="flex">
           <Icons.logo className="mr-2 h-6 w-6" />{" "}
-          <span className="font-bold text-lg">LOMPA</span>
+          <span className="font-bold text-lg">ADMIN</span>
         </Link>
       </div>
       <div className={cn("block lg:!hidden")}>{/* <MobileSidebar /> */}</div>

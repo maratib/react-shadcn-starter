@@ -23,7 +23,7 @@ export const AdminSidebar: FC<Props> = () => {
       </div>
       <div className="relative h-screen">
         <div className="text-sm w-full absolute bottom-80 text-center">
-          <span>&copy; {new Date().getFullYear()} LOMPA</span>
+          <span>&copy; {new Date().getFullYear()} ADMIN</span>
         </div>
       </div>
     </nav>
